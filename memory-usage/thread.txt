@@ -1,0 +1,240 @@
+[2024-11-06T14:18:40.250+0300][info] The SetThreadDescription API is available.
+[2024-11-06T14:18:40.250+0300][debug] Thread 32244 stack guard pages activated: 0x00000096ef800000-0x00000096ef804000.
+[2024-11-06T14:18:40.253+0300][info ] Thread "GC Thread#0" started (tid: 36764, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.253+0300][info ] Thread "G1 Main Marker" started (tid: 31272, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.253+0300][info ] Thread "G1 Conc#0" started (tid: 11156, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.253+0300][info ] Thread is alive (tid: 31272, stacksize: 1024k).
+[2024-11-06T14:18:40.253+0300][info ] Thread is alive (tid: 36764, stacksize: 1024k).
+[2024-11-06T14:18:40.253+0300][info ] Thread is alive (tid: 11156, stacksize: 1024k).
+[2024-11-06T14:18:40.253+0300][debug] Thread 31272 stack dimensions: 0x00000096efa00000-0x00000096efb00000 (1024k).
+[2024-11-06T14:18:40.253+0300][debug] Thread 36764 stack dimensions: 0x00000096ef900000-0x00000096efa00000 (1024k).
+[2024-11-06T14:18:40.253+0300][debug] Thread 11156 stack dimensions: 0x00000096efb00000-0x00000096efc00000 (1024k).
+[2024-11-06T14:18:40.253+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: G1 Main Marker
+[2024-11-06T14:18:40.253+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: GC Thread#0
+[2024-11-06T14:18:40.253+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: G1 Conc#0
+[2024-11-06T14:18:40.254+0300][info ] Thread "G1 Refine#0" started (tid: 4172, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.254+0300][info ] Thread "G1 Service" started (tid: 28404, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.254+0300][info ] Thread is alive (tid: 4172, stacksize: 1024k).
+[2024-11-06T14:18:40.254+0300][debug] Thread 4172 stack dimensions: 0x00000096efc00000-0x00000096efd00000 (1024k).
+[2024-11-06T14:18:40.254+0300][info ] Thread is alive (tid: 28404, stacksize: 1024k).
+[2024-11-06T14:18:40.254+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: G1 Refine#0
+[2024-11-06T14:18:40.254+0300][debug] Thread 28404 stack dimensions: 0x00000096efd00000-0x00000096efe00000 (1024k).
+[2024-11-06T14:18:40.254+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: G1 Service
+[2024-11-06T14:18:40.262+0300][info ] Thread "VM Periodic Task Thread" started (tid: 33080, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.262+0300][debug] tid=32244: Threads::add: new ThreadsList=0x000001c2703a69b0
+[2024-11-06T14:18:40.262+0300][debug] tid=32244: ThreadsSMRSupport::free_list: bootstrap ThreadsList=0x00007ff99392b1c8 is no longer in use.
+[2024-11-06T14:18:40.262+0300][info ] Thread is alive (tid: 33080, stacksize: 1024k).
+[2024-11-06T14:18:40.262+0300][debug] Thread 33080 stack dimensions: 0x00000096efe00000-0x00000096eff00000 (1024k).
+[2024-11-06T14:18:40.262+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: VM Periodic Task Thread
+[2024-11-06T14:18:40.264+0300][info ] Thread "VM Thread" started (tid: 14976, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.264+0300][info ] Thread is alive (tid: 14976, stacksize: 1024k).
+[2024-11-06T14:18:40.264+0300][debug] Thread 14976 stack dimensions: 0x00000096eff00000-0x00000096f0000000 (1024k).
+[2024-11-06T14:18:40.264+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: VM Thread
+[2024-11-06T14:18:40.272+0300][info ] Thread "Unknown thread" started (tid: 17848, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.272+0300][debug] tid=32244: Threads::add: new ThreadsList=0x000001c245005c20
+[2024-11-06T14:18:40.272+0300][debug] tid=32244: ThreadsSMRSupport::free_list: threads=0x000001c2703a69b0 is freed.
+[2024-11-06T14:18:40.273+0300][info ] Thread "Unknown thread" started (tid: 6416, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.273+0300][info ] Thread is alive (tid: 17848, stacksize: 1024k).
+[2024-11-06T14:18:40.273+0300][debug] tid=32244: Threads::add: new ThreadsList=0x000001c2450056b0
+[2024-11-06T14:18:40.273+0300][debug] Thread 17848 stack dimensions: 0x00000096f0000000-0x00000096f0100000 (1024k).
+[2024-11-06T14:18:40.273+0300][debug] tid=32244: ThreadsSMRSupport::free_list: threads=0x000001c245005c20 is freed.
+[2024-11-06T14:18:40.273+0300][debug] Thread 17848 stack guard pages activated: 0x00000096f0000000-0x00000096f0004000.
+[2024-11-06T14:18:40.273+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: Reference Handler
+[2024-11-06T14:18:40.273+0300][info ] Thread "Unknown thread" started (tid: 35212, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.273+0300][debug] tid=32244: Threads::add: new ThreadsList=0x000001c245006160
+[2024-11-06T14:18:40.273+0300][info ] Thread is alive (tid: 6416, stacksize: 1024k).
+[2024-11-06T14:18:40.273+0300][debug] tid=32244: ThreadsSMRSupport::free_list: threads=0x000001c2450056b0 is freed.
+[2024-11-06T14:18:40.273+0300][debug] Thread 6416 stack dimensions: 0x00000096f0100000-0x00000096f0200000 (1024k).
+[2024-11-06T14:18:40.273+0300][debug] Thread 6416 stack guard pages activated: 0x00000096f0100000-0x00000096f0104000.
+[2024-11-06T14:18:40.273+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: Finalizer
+[2024-11-06T14:18:40.273+0300][info ] Thread "Unknown thread" started (tid: 13272, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.273+0300][debug] tid=32244: Threads::add: new ThreadsList=0x000001c2703a69b0
+[2024-11-06T14:18:40.273+0300][debug] tid=32244: ThreadsSMRSupport::free_list: threads=0x000001c245006160 is freed.
+[2024-11-06T14:18:40.273+0300][info ] Thread "Unknown thread" started (tid: 32588, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.273+0300][debug] tid=32244: Threads::add: new ThreadsList=0x000001c245029330
+[2024-11-06T14:18:40.273+0300][debug] tid=32244: ThreadsSMRSupport::free_list: threads=0x000001c2703a69b0 is freed.
+[2024-11-06T14:18:40.273+0300][info ] Thread is alive (tid: 35212, stacksize: 1024k).
+[2024-11-06T14:18:40.273+0300][info ] Thread is alive (tid: 32588, stacksize: 1024k).
+[2024-11-06T14:18:40.273+0300][info ] Thread "Unknown thread" started (tid: 30656, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.273+0300][debug] Thread 35212 stack dimensions: 0x00000096f0200000-0x00000096f0300000 (1024k).
+[2024-11-06T14:18:40.273+0300][debug] Thread 32588 stack dimensions: 0x00000096f0400000-0x00000096f0500000 (1024k).
+[2024-11-06T14:18:40.273+0300][debug] tid=32244: Threads::add: new ThreadsList=0x000001c245029390
+[2024-11-06T14:18:40.273+0300][debug] Thread 35212 stack guard pages activated: 0x00000096f0200000-0x00000096f0204000.
+[2024-11-06T14:18:40.273+0300][debug] Thread 32588 stack guard pages activated: 0x00000096f0400000-0x00000096f0404000.
+[2024-11-06T14:18:40.273+0300][info ] Thread is alive (tid: 13272, stacksize: 1024k).
+[2024-11-06T14:18:40.273+0300][debug] tid=32244: ThreadsSMRSupport::free_list: threads=0x000001c245029330 is freed.
+[2024-11-06T14:18:40.273+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: Signal Dispatcher
+[2024-11-06T14:18:40.273+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: Service Thread
+[2024-11-06T14:18:40.274+0300][debug] Thread 13272 stack dimensions: 0x00000096f0300000-0x00000096f0400000 (1024k).
+[2024-11-06T14:18:40.274+0300][info ] Thread "Unknown thread" started (tid: 31860, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.274+0300][info ] Thread is alive (tid: 30656, stacksize: 1024k).
+[2024-11-06T14:18:40.274+0300][debug] Thread 13272 stack guard pages activated: 0x00000096f0300000-0x00000096f0304000.
+[2024-11-06T14:18:40.274+0300][debug] tid=32244: Threads::add: new ThreadsList=0x000001c245029930
+[2024-11-06T14:18:40.274+0300][debug] Thread 30656 stack dimensions: 0x00000096f0500000-0x00000096f0600000 (1024k).
+[2024-11-06T14:18:40.274+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: Attach Listener
+[2024-11-06T14:18:40.274+0300][debug] tid=32244: ThreadsSMRSupport::free_list: threads=0x000001c245029390 is freed.
+[2024-11-06T14:18:40.274+0300][debug] Thread 30656 stack guard pages activated: 0x00000096f0500000-0x00000096f0504000.
+[2024-11-06T14:18:40.274+0300][debug] Added initial compiler thread C2 CompilerThread0
+[2024-11-06T14:18:40.274+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: Monitor Deflation Thread
+[2024-11-06T14:18:40.274+0300][info ] Thread is alive (tid: 31860, stacksize: 1024k).
+[2024-11-06T14:18:40.274+0300][debug] Thread 31860 stack dimensions: 0x00000096f0600000-0x00000096f0700000 (1024k).
+[2024-11-06T14:18:40.274+0300][debug] Thread 31860 stack guard pages activated: 0x00000096f0600000-0x00000096f0604000.
+[2024-11-06T14:18:40.274+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: C2 CompilerThread0
+[2024-11-06T14:18:40.274+0300][info ] Thread "Unknown thread" started (tid: 13072, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.274+0300][debug] tid=32244: Threads::add: new ThreadsList=0x000001c245029990
+[2024-11-06T14:18:40.274+0300][debug] tid=32244: ThreadsSMRSupport::free_list: threads=0x000001c245029930 is freed.
+[2024-11-06T14:18:40.274+0300][debug] Added initial compiler thread C1 CompilerThread0
+[2024-11-06T14:18:40.274+0300][info ] Thread is alive (tid: 13072, stacksize: 1024k).
+[2024-11-06T14:18:40.274+0300][debug] Thread 13072 stack dimensions: 0x00000096f0700000-0x00000096f0800000 (1024k).
+[2024-11-06T14:18:40.274+0300][debug] Thread 13072 stack guard pages activated: 0x00000096f0700000-0x00000096f0704000.
+[2024-11-06T14:18:40.274+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: C1 CompilerThread0
+[2024-11-06T14:18:40.278+0300][info ] Thread "Unknown thread" started (tid: 13692, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.278+0300][debug] tid=13072: Threads::add: new ThreadsList=0x000001c24502ace0
+[2024-11-06T14:18:40.278+0300][debug] tid=13072: ThreadsSMRSupport::free_list: threads=0x000001c245029990 is freed.
+[2024-11-06T14:18:40.278+0300][debug] Added compiler thread C1 CompilerThread1 (free memory: 8525MB, available profiled code cache: 116MB)
+[2024-11-06T14:18:40.278+0300][info ] Thread is alive (tid: 13692, stacksize: 1024k).
+[2024-11-06T14:18:40.278+0300][debug] Thread 13692 stack dimensions: 0x00000096f0800000-0x00000096f0900000 (1024k).
+[2024-11-06T14:18:40.278+0300][debug] Thread 13692 stack guard pages activated: 0x00000096f0800000-0x00000096f0804000.
+[2024-11-06T14:18:40.278+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: C1 CompilerThread1
+[2024-11-06T14:18:40.279+0300][info ] Thread "Unknown thread" started (tid: 1680, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.279+0300][debug] tid=13692: Threads::add: new ThreadsList=0x000001c24502c000
+[2024-11-06T14:18:40.279+0300][debug] tid=13692: ThreadsSMRSupport::free_list: threads=0x000001c24502ace0 is freed.
+[2024-11-06T14:18:40.279+0300][debug] Added compiler thread C1 CompilerThread2 (free memory: 8525MB, available profiled code cache: 116MB)
+[2024-11-06T14:18:40.279+0300][info ] Thread is alive (tid: 1680, stacksize: 1024k).
+[2024-11-06T14:18:40.279+0300][debug] Thread 1680 stack dimensions: 0x00000096f0900000-0x00000096f0a00000 (1024k).
+[2024-11-06T14:18:40.279+0300][debug] Thread 1680 stack guard pages activated: 0x00000096f0900000-0x00000096f0904000.
+[2024-11-06T14:18:40.280+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: C1 CompilerThread2
+[2024-11-06T14:18:40.281+0300][info ] Thread "Unknown thread" started (tid: 26644, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.281+0300][debug] tid=13692: Threads::add: new ThreadsList=0x000001c245025c20
+[2024-11-06T14:18:40.281+0300][debug] tid=13692: ThreadsSMRSupport::free_list: threads=0x000001c24502c000 is freed.
+[2024-11-06T14:18:40.281+0300][debug] Added compiler thread C1 CompilerThread3 (free memory: 8525MB, available profiled code cache: 116MB)
+[2024-11-06T14:18:40.281+0300][info ] Thread is alive (tid: 26644, stacksize: 1024k).
+[2024-11-06T14:18:40.281+0300][debug] Thread 26644 stack dimensions: 0x00000096f0a00000-0x00000096f0b00000 (1024k).
+[2024-11-06T14:18:40.281+0300][debug] Thread 26644 stack guard pages activated: 0x00000096f0a00000-0x00000096f0a04000.
+[2024-11-06T14:18:40.282+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: C1 CompilerThread3
+[2024-11-06T14:18:40.285+0300][info ] Thread "Unknown thread" started (tid: 14760, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.285+0300][debug] tid=32244: Threads::add: new ThreadsList=0x000001c2451a4260
+[2024-11-06T14:18:40.285+0300][debug] tid=32244: ThreadsSMRSupport::free_list: threads=0x000001c245025c20 is freed.
+[2024-11-06T14:18:40.285+0300][info ] Thread is alive (tid: 14760, stacksize: 1024k).
+[2024-11-06T14:18:40.285+0300][debug] Thread 14760 stack dimensions: 0x00000096f0b00000-0x00000096f0c00000 (1024k).
+[2024-11-06T14:18:40.285+0300][debug] Thread 14760 stack guard pages activated: 0x00000096f0b00000-0x00000096f0b04000.
+[2024-11-06T14:18:40.285+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: Notification Thread
+[2024-11-06T14:18:40.288+0300][info ] Thread "Unknown thread" started (tid: 31824, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.288+0300][debug] tid=32244: Threads::add: new ThreadsList=0x000001c2451a48f0
+[2024-11-06T14:18:40.288+0300][debug] tid=32244: ThreadsSMRSupport::free_list: threads=0x000001c2451a4260 is freed.
+[2024-11-06T14:18:40.288+0300][info ] Thread is alive (tid: 31824, stacksize: 1024k).
+[2024-11-06T14:18:40.288+0300][debug] Thread 31824 stack dimensions: 0x00000096f0c00000-0x00000096f0d00000 (1024k).
+[2024-11-06T14:18:40.288+0300][debug] Thread 31824 stack guard pages activated: 0x00000096f0c00000-0x00000096f0c04000.
+[2024-11-06T14:18:40.288+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: Common-Cleaner
+[2024-11-06T14:18:40.312+0300][info ] Thread "GC Thread#1" started (tid: 11100, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.313+0300][info ] Thread "GC Thread#2" started (tid: 2696, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.313+0300][info ] Thread "GC Thread#3" started (tid: 33084, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.313+0300][info ] Thread is alive (tid: 11100, stacksize: 1024k).
+[2024-11-06T14:18:40.313+0300][info ] Thread "GC Thread#4" started (tid: 496, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.313+0300][debug] Thread 11100 stack dimensions: 0x00000096f0d00000-0x00000096f0e00000 (1024k).
+[2024-11-06T14:18:40.313+0300][info ] Thread is alive (tid: 2696, stacksize: 1024k).
+[2024-11-06T14:18:40.313+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: GC Thread#1
+[2024-11-06T14:18:40.313+0300][info ] Thread "GC Thread#5" started (tid: 30064, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.313+0300][info ] Thread is alive (tid: 33084, stacksize: 1024k).
+[2024-11-06T14:18:40.313+0300][debug] Thread 2696 stack dimensions: 0x00000096f0e00000-0x00000096f0f00000 (1024k).
+[2024-11-06T14:18:40.313+0300][info ] Thread is alive (tid: 496, stacksize: 1024k).
+[2024-11-06T14:18:40.313+0300][info ] Thread is alive (tid: 30064, stacksize: 1024k).
+[2024-11-06T14:18:40.313+0300][info ] Thread "GC Thread#6" started (tid: 14628, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.313+0300][debug] Thread 33084 stack dimensions: 0x00000096f0f00000-0x00000096f1000000 (1024k).
+[2024-11-06T14:18:40.313+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: GC Thread#2
+[2024-11-06T14:18:40.313+0300][debug] Thread 496 stack dimensions: 0x00000096f1000000-0x00000096f1100000 (1024k).
+[2024-11-06T14:18:40.313+0300][debug] Thread 30064 stack dimensions: 0x00000096f1100000-0x00000096f1200000 (1024k).
+[2024-11-06T14:18:40.313+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: GC Thread#3
+[2024-11-06T14:18:40.313+0300][info ] Thread "GC Thread#7" started (tid: 28112, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.313+0300][info ] Thread is alive (tid: 14628, stacksize: 1024k).
+[2024-11-06T14:18:40.313+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: GC Thread#4
+[2024-11-06T14:18:40.313+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: GC Thread#5
+[2024-11-06T14:18:40.313+0300][debug] Thread 14628 stack dimensions: 0x00000096f1200000-0x00000096f1300000 (1024k).
+[2024-11-06T14:18:40.313+0300][info ] Thread "GC Thread#8" started (tid: 16876, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.313+0300][info ] Thread is alive (tid: 28112, stacksize: 1024k).
+[2024-11-06T14:18:40.313+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: GC Thread#6
+[2024-11-06T14:18:40.313+0300][debug] Thread 28112 stack dimensions: 0x00000096f1300000-0x00000096f1400000 (1024k).
+[2024-11-06T14:18:40.313+0300][info ] Thread "GC Thread#9" started (tid: 30464, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.313+0300][info ] Thread is alive (tid: 16876, stacksize: 1024k).
+[2024-11-06T14:18:40.313+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: GC Thread#7
+[2024-11-06T14:18:40.313+0300][debug] Thread 16876 stack dimensions: 0x00000096f1400000-0x00000096f1500000 (1024k).
+[2024-11-06T14:18:40.313+0300][info ] Thread is alive (tid: 30464, stacksize: 1024k).
+[2024-11-06T14:18:40.313+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: GC Thread#8
+[2024-11-06T14:18:40.313+0300][debug] Thread 30464 stack dimensions: 0x00000096f1500000-0x00000096f1600000 (1024k).
+[2024-11-06T14:18:40.313+0300][info ] Thread "GC Thread#10" started (tid: 31664, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.313+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: GC Thread#9
+[2024-11-06T14:18:40.313+0300][info ] Thread "GC Thread#11" started (tid: 33352, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.313+0300][info ] Thread is alive (tid: 31664, stacksize: 1024k).
+[2024-11-06T14:18:40.313+0300][info ] Thread is alive (tid: 33352, stacksize: 1024k).
+[2024-11-06T14:18:40.313+0300][debug] Thread 31664 stack dimensions: 0x00000096f1600000-0x00000096f1700000 (1024k).
+[2024-11-06T14:18:40.313+0300][debug] Thread 33352 stack dimensions: 0x00000096f1700000-0x00000096f1800000 (1024k).
+[2024-11-06T14:18:40.313+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: GC Thread#10
+[2024-11-06T14:18:40.313+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: GC Thread#11
+[2024-11-06T14:18:40.352+0300][info ] Thread "Unknown thread" started (tid: 21880, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.352+0300][debug] tid=31860: Threads::add: new ThreadsList=0x000001c2451a1f80
+[2024-11-06T14:18:40.352+0300][debug] tid=31860: ThreadsSMRSupport::free_list: threads=0x000001c2451a48f0 is freed.
+[2024-11-06T14:18:40.352+0300][debug] Added compiler thread C2 CompilerThread1 (free memory: 8442MB, available non-profiled code cache: 116MB)
+[2024-11-06T14:18:40.352+0300][info ] Thread "Unknown thread" started (tid: 22984, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.352+0300][debug] tid=31860: Threads::add: new ThreadsList=0x000001c2451a1bc0
+[2024-11-06T14:18:40.352+0300][debug] tid=31860: ThreadsSMRSupport::free_list: threads=0x000001c2451a1f80 is freed.
+[2024-11-06T14:18:40.352+0300][debug] Added compiler thread C2 CompilerThread2 (free memory: 8442MB, available non-profiled code cache: 116MB)
+[2024-11-06T14:18:40.352+0300][info ] Thread is alive (tid: 21880, stacksize: 1024k).
+[2024-11-06T14:18:40.352+0300][debug] Thread 21880 stack dimensions: 0x00000096f1800000-0x00000096f1900000 (1024k).
+[2024-11-06T14:18:40.352+0300][debug] Thread 21880 stack guard pages activated: 0x00000096f1800000-0x00000096f1804000.
+[2024-11-06T14:18:40.352+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: C2 CompilerThread1
+[2024-11-06T14:18:40.352+0300][info ] Thread is alive (tid: 22984, stacksize: 1024k).
+[2024-11-06T14:18:40.352+0300][debug] Thread 22984 stack dimensions: 0x00000096f1900000-0x00000096f1a00000 (1024k).
+[2024-11-06T14:18:40.352+0300][debug] Thread 22984 stack guard pages activated: 0x00000096f1900000-0x00000096f1904000.
+[2024-11-06T14:18:40.352+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: C2 CompilerThread2
+[2024-11-06T14:18:40.604+0300][info ] Thread "GC Thread#12" started (tid: 14080, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.604+0300][info ] Thread "GC Thread#13" started (tid: 28984, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.604+0300][info ] Thread "GC Thread#14" started (tid: 22252, attributes: stacksize: default, flags: CREATE_SUSPENDED STACK_SIZE_PARAM_IS)
+[2024-11-06T14:18:40.604+0300][info ] Thread is alive (tid: 14080, stacksize: 1024k).
+[2024-11-06T14:18:40.604+0300][debug] Thread 14080 stack dimensions: 0x00000096f1a00000-0x00000096f1b00000 (1024k).
+[2024-11-06T14:18:40.604+0300][info ] Thread is alive (tid: 28984, stacksize: 1024k).
+[2024-11-06T14:18:40.604+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: GC Thread#12
+[2024-11-06T14:18:40.604+0300][debug] Thread 28984 stack dimensions: 0x00000096f1b00000-0x00000096f1c00000 (1024k).
+[2024-11-06T14:18:40.604+0300][info ] Thread is alive (tid: 22252, stacksize: 1024k).
+[2024-11-06T14:18:40.604+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: GC Thread#13
+[2024-11-06T14:18:40.604+0300][debug] Thread 22252 stack dimensions: 0x00000096f1c00000-0x00000096f1d00000 (1024k).
+[2024-11-06T14:18:40.604+0300][trace] set_native_thread_name: SetThreadDescription succeeded - new name: GC Thread#14
+[2024-11-06T14:18:42.078+0300][debug] Removing compiler thread C2 CompilerThread2 after 1701 ms idle time
+[2024-11-06T14:18:42.078+0300][debug] Thread 22984 stack guard pages removed: 0x00000096f1900000-0x00000096f1904000.
+[2024-11-06T14:18:42.078+0300][debug] Removing compiler thread C1 CompilerThread3 after 1770 ms idle time
+[2024-11-06T14:18:42.078+0300][info ] JavaThread exiting (tid: 22984).
+[2024-11-06T14:18:42.078+0300][debug] Thread 26644 stack guard pages removed: 0x00000096f0a00000-0x00000096f0a04000.
+[2024-11-06T14:18:42.078+0300][debug] tid=22984: Threads::remove: new ThreadsList=0x000001c24566fe20
+[2024-11-06T14:18:42.078+0300][info ] JavaThread exiting (tid: 26644).
+[2024-11-06T14:18:42.078+0300][debug] tid=22984: ThreadsSMRSupport::free_list: threads=0x000001c2451a1bc0 is freed.
+[2024-11-06T14:18:42.078+0300][debug] name='C2 CompilerThread2', exit-phase1=0, exit-phase2=0, exit-phase3=0, exit-phase4=0
+[2024-11-06T14:18:42.078+0300][debug] tid=26644: Threads::remove: new ThreadsList=0x000001c2453c0770
+[2024-11-06T14:18:42.078+0300][debug] tid=26644: ThreadsSMRSupport::free_list: threads=0x000001c24566fe20 is freed.
+[2024-11-06T14:18:42.078+0300][debug] name='C1 CompilerThread3', exit-phase1=0, exit-phase2=0, exit-phase3=0, exit-phase4=0
+[2024-11-06T14:18:42.078+0300][debug] tid=26644: ThreadsSMRSupport::smr_delete: thread=0x000001c2704d79e0 is deleted.
+[2024-11-06T14:18:42.078+0300][info ] Thread finished (tid: 26644).
+[2024-11-06T14:18:42.078+0300][debug] tid=22984: ThreadsSMRSupport::smr_delete: thread=0x000001c2453d3610 is deleted.
+[2024-11-06T14:18:42.078+0300][info ] Thread finished (tid: 22984).
+[2024-11-06T14:18:42.142+0300][debug] Removing compiler thread C1 CompilerThread2 after 1834 ms idle time
+[2024-11-06T14:18:42.142+0300][debug] Thread 1680 stack guard pages removed: 0x00000096f0900000-0x00000096f0904000.
+[2024-11-06T14:18:42.142+0300][info ] JavaThread exiting (tid: 1680).
+[2024-11-06T14:18:42.142+0300][debug] tid=1680: Threads::remove: new ThreadsList=0x000001c2453c07a0
+[2024-11-06T14:18:42.142+0300][debug] tid=1680: ThreadsSMRSupport::free_list: threads=0x000001c2453c0770 is freed.
+[2024-11-06T14:18:42.142+0300][debug] Removing compiler thread C2 CompilerThread1 after 1767 ms idle time
+[2024-11-06T14:18:42.142+0300][debug] name='C1 CompilerThread2', exit-phase1=0, exit-phase2=0, exit-phase3=0, exit-phase4=0
+[2024-11-06T14:18:42.142+0300][debug] Thread 21880 stack guard pages removed: 0x00000096f1800000-0x00000096f1804000.
+[2024-11-06T14:18:42.142+0300][info ] JavaThread exiting (tid: 21880).
+[2024-11-06T14:18:42.142+0300][debug] tid=21880: Threads::remove: new ThreadsList=0x000001c2455cba70
+[2024-11-06T14:18:42.142+0300][debug] tid=1680: ThreadsSMRSupport::smr_delete: thread=0x000001c24515c7b0 is deleted.
+[2024-11-06T14:18:42.142+0300][debug] tid=21880: ThreadsSMRSupport::free_list: threads=0x000001c2453c07a0 is freed.
+[2024-11-06T14:18:42.143+0300][info ] Thread finished (tid: 1680).
+[2024-11-06T14:18:42.143+0300][debug] name='C2 CompilerThread1', exit-phase1=0, exit-phase2=0, exit-phase3=0, exit-phase4=0
+[2024-11-06T14:18:42.143+0300][debug] tid=21880: ThreadsSMRSupport::smr_delete: thread=0x000001c2453d2f50 is deleted.
+[2024-11-06T14:18:42.143+0300][info ] Thread finished (tid: 21880).
+[2024-11-06T14:18:45.309+0300][debug] Removing compiler thread C1 CompilerThread1 after 3165 ms idle time
+[2024-11-06T14:18:45.309+0300][debug] Thread 13692 stack guard pages removed: 0x00000096f0800000-0x00000096f0804000.
+[2024-11-06T14:18:45.309+0300][info ] JavaThread exiting (tid: 13692).
+[2024-11-06T14:18:45.309+0300][debug] tid=13692: Threads::remove: new ThreadsList=0x000001c2453c0770
+[2024-11-06T14:18:45.309+0300][debug] tid=13692: ThreadsSMRSupport::free_list: threads=0x000001c2455cba70 is freed.
+[2024-11-06T14:18:45.309+0300][debug] name='C1 CompilerThread1', exit-phase1=0, exit-phase2=0, exit-phase3=0, exit-phase4=0
+[2024-11-06T14:18:45.309+0300][debug] tid=13692: ThreadsSMRSupport::smr_delete: thread=0x000001c245049ec0 is deleted.
+[2024-11-06T14:18:45.309+0300][info ] Thread finished (tid: 13692).
