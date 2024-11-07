@@ -2,6 +2,7 @@ package com.example;
 
 import java.util.List;
 
+@SuppressWarnings({ "removal", "unused" })
 public class Exercise03 {
 
 	public static void main(String[] args) {

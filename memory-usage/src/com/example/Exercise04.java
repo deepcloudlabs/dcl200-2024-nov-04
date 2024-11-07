@@ -7,9 +7,10 @@ import java.util.Objects;
 import java.util.WeakHashMap;
 import java.util.concurrent.TimeUnit;
 
+@SuppressWarnings("unused")
 public class Exercise04 {
     private static List<String> list = new ArrayList<>();
-    private static WeakHashMap<String , Integer> cache= new WeakHashMap<>();
+	private static WeakHashMap<String , Integer> cache= new WeakHashMap<>();
     
 	public static void main(String[] args) throws InterruptedException {
 		fun();
